@@ -1,9 +1,9 @@
-module = laplace4
-submodules =
+module = Exact/laplace9_exact
+submodules = Full_adder/src/RippleCarryAdder.v Full_adder/src/FullAdder.v
 
 sim: clean
 	# Agregan el nombre del resto de archivos del proyecto, incluyendo el testbench del diseño
-	(cd src; iverilog $(module)_tb.v $(module).v $(submodules).v \
+	(cd src; iverilog $(module)_tb.v $(module).v $(submodules) \
 		-o ../build/sim)
 	(cd build; ./sim)
 
@@ -11,7 +11,7 @@ syn:
 	# No se incluyen los testbench 
 	# en el paso de "synth" se debe cambiar el nombre del módulo top por el de su proyecto
 	(cd src; yosys -p "read_verilog \
-			$(module).v $(submodules).v;  \
+			$(module).v $(submodules);  \
 		 	synth -top $(module);\
 			write_json ../build/$(module)-syn.json;\
 			write_verilog ../build/$(module)-syn.v")
@@ -20,7 +20,7 @@ syn:
 
 syntech:
 	(cd src; yosys -p "read_verilog \
-			$(module).v $(submodules).v;  \
+			$(module).v $(submodules);  \
 		 	hierarchy -top $(module);\
 			prep; synth; \
 			clean -purge; \

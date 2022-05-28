@@ -1,6 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/jocastro/vorlesungen/EL3307/proyecto1'
-make: Leaving directory '/home/jocastro/vorlesungen/EL3307/proyecto1'
+make: Entering directory '/home/karina/Verilog/Proyecto1'
+make: Leaving directory '/home/karina/Verilog/Proyecto1'
  
 make: *** No targets specified and no makefile found.  Stop.
 

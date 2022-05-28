@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-conda-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,52 +6,32 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu May 19 11:25:28 2022
+# Make data base, printed on Sat May 28 16:19:13 2022
 
 # Variables
 
 # environment
-GDK_BACKEND = x11
-# environment
 LC_ALL = C
 # environment
-GNOME_SHELL_SESSION_MODE = ubuntu
+WSLENV = ELECTRON_RUN_AS_NODE/w:
 # environment
-PICO_PLAYGROUND_PATH = /home/jocastro/tools/pico/pico-playground
-# environment
-SNAP_INSTANCE_KEY = 
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6529a87b-3435-43d6-a056-3079062c1191.sock
-# environment
-LC_NAME = es_CR.UTF-8
-# environment
-LC_NUMERIC = es_CR.UTF-8
-# environment
-VSCODE_CWD = /home/jocastro/vorlesungen/EL3307/proyecto1
-# environment
-WINDOWPATH = 2
-# environment
-LC_ADDRESS = es_CR.UTF-8
+VSCODE_CWD = /mnt/c/Users/karin/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_COMMAND := make
 # environment
-QT_ACCESSIBILITY = 1
+VSCODE_HANDLES_SIGPIPE = true
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
-# environment
-SNAP_INSTANCE_NAME = code
-# environment
-GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/jocastro/vorlesungen/EL3307/proyecto1
+PWD = /home/karina/Verilog/Proyecto1
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -63,240 +41,129 @@ VSCODE_LOG_STACK = false
 # environment
 CONDA_PROMPT_MODIFIER = (ambiente_verilog) 
 # environment
-VSCODE_CODE_CACHE_PATH = /home/jocastro/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
-# environment
 LANG = C
-# environment
-XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include
-# environment
-GNOME_TERMINAL_SERVICE = :1.182
 # makefile
 MAKEFLAGS = pqrR
 # makefile
-CURDIR := /home/jocastro/vorlesungen/EL3307/proyecto1
+CURDIR := /home/karina/Verilog/Proyecto1
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
 MFLAGS = -pqrR
-# environment
-SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # default
 .SHELLFLAGS := -c
-# environment
-XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
-# environment
-XDG_SESSION_DESKTOP = ubuntu
 # makefile
 MAKEFILE_LIST := 
 # environment
 CONDA_SHLVL = 2
-# environment
-SNAP_REEXEC = 
 # automatic
 @F = $(notdir $@)
 # environment
 VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 208340
-# environment
-XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-CONDA_PYTHON_EXE = /home/jocastro/miniconda3/bin/python
-# environment
-SESSION_MANAGER = local/petri:@/tmp/.ICE-unix/2029,unix/petri:/tmp/.ICE-unix/2029
+CONDA_PYTHON_EXE = /home/karina/miniconda3/bin/python
 # automatic
 *F = $(notdir $*)
-# environment
-CHROME_DESKTOP = code-url-handler.desktop
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # default
 MAKE_HOST := x86_64-conda-linux-gnu
 # environment
-GNOME_DESKTOP_SESSION_ID = this-is-deprecated
-# environment
-CONDA_PREFIX = /home/jocastro/miniconda3/envs/ambiente_verilog
+CONDA_PREFIX = /home/karina/miniconda3/envs/ambiente_verilog
 # makefile
 SHELL = /bin/sh
 # default
 MAKECMDGOALS := all
 # environment
-XMODIFIERS = @im=ibus
-# environment
 SHLVL = 1
-# environment
-PICO_SDK_PATH = /home/jocastro/tools/pico/pico-sdk
-# environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/bda7ac09_03e1_4298_85ca_87f092d32623
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-SNAP_COOKIE = XV8PDB0qa7QTdYqPMkEyEGL45pDGHCSFOldK8vRHdq1IOEWLEEN5
-# environment
-PATH = /home/jocastro/miniconda3/envs/ambiente_verilog/bin:/home/jocastro/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/karina/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/home/karina/miniconda3/envs/ambiente_verilog/bin:/home/karina/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2022.8.0_x64__79rhkp1fndgsc:/mnt/c/Python39:/mnt/c/Python39/Scripts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/AdoptOpenJDK/jre-16.0.1.9-hotspot/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/MongoDB/Server/4.4/bin:/mnt/d/hbase-2.3.3/bin:/mnt/c/Program Files/Java/jdk-16.0.2/bin:/mnt/c/Gradle/gradle-7.2/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin:/mnt/c/Users/karin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/karin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/karin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/karin/.dotnet/tools:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/Users/karin/AppData/Roaming/npm:/snap/bin
 # default
 MAKEFILES := 
 # environment
-LC_MONETARY = es_CR.UTF-8
+MOTD_SHOWN = update-motd
 # automatic
 ^F = $(notdir $^)
 # environment
-SNAP_USER_COMMON = /home/jocastro/snap/code/common
-# environment
-LC_TIME = es_CR.UTF-8
-# environment
-SNAP = /snap/code/97
-# environment
-INVOCATION_ID = 1d3bd3601f854644a8f51ecd86d2e8b1
-# environment
-SNAP_REVISION = 97
-# environment
-QSYS_ROOTDIR = /home/jocastro/tools/intelFPGA/21.1/quartus/sopc_builder/bin
-# environment
-SNAP_REAL_HOME = /home/jocastro
-# environment
 VSCODE_LOG_NATIVE = false
-# environment
-USERNAME = jocastro
-# environment
-LC_TELEPHONE = es_CR.UTF-8
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # automatic
 ?F = $(notdir $?)
 # environment
-XDG_CURRENT_DESKTOP = Unity
+NAME = Code
+# environment
+HOSTTYPE = x86_64
 # environment
 LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # automatic
 +F = $(notdir $+)
-# environment
-DESKTOP_SESSION = ubuntu
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
 CONDA_DEFAULT_ENV = ambiente_verilog
 # environment
-LOGNAME = jocastro
+LOGNAME = karina
 # environment
-SNAP_ARCH = amd64
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/karin/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.3
 # makefile
 .DEFAULT_GOAL := 
 # environment
-DISPLAY = :0
-# environment
-USER = jocastro
-# environment
-GTK_MODULES = gail:atk-bridge
+USER = karina
 # default
 MAKE_VERSION := 4.3
 # environment
-DISABLE_WAYLAND = 1
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
-SNAP_DATA = /var/snap/code/97
-# environment
-SNAP_CONTEXT = XV8PDB0qa7QTdYqPMkEyEGL45pDGHCSFOldK8vRHdq1IOEWLEEN5
-# environment
-MANAGERPID = 1075
-# environment
-LC_MEASUREMENT = es_CR.UTF-8
-# environment
-SSH_AGENT_PID = 1991
-# environment
-LC_PAPER = es_CR.UTF-8
-# environment
-XDG_RUNTIME_DIR = /run/user/1000
-# environment
-GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
-# environment
-COLORTERM = truecolor
-# environment
-GDK_PIXBUF_MODULE_FILE = /home/jocastro/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+_ = /mnt/c/Users/karin/AppData/Local/Programs/Microsoft VS Code/bin/code
 # environment
 _CE_M = 
 # environment
-JOURNAL_STREAM = 8:48916
-# environment
-XDG_SESSION_CLASS = user
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-daec9199-ae58-4ede-b406-832003d97c91.sock
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-HOME = /home/jocastro
+HOME = /home/karina
 # environment
-QT_IM_MODULE = ibus
-# environment
-CONDA_PREFIX_1 = /home/jocastro/miniconda3
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-f7280a6e-1.67.2-main.sock
+CONDA_PREFIX_1 = /home/karina/miniconda3
 # environment
 TERM = xterm-256color
-# environment
-SNAP_NAME = code
-# environment
-GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
-# environment
-IM_CONFIG_PHASE = 1
 # default
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
-# environment
-SNAP_VERSION = c3511e6c
 # default
 SUFFIXES := 
 # environment
-PICO_EXAMPLES_PATH = /home/jocastro/tools/pico/pico-examples
-# environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# environment
-VTE_VERSION = 6003
-# environment
-SNAP_COMMON = /var/snap/code/common
+WSL_DISTRO_NAME = Ubuntu-20.04
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-SNAP_USER_DATA = /home/jocastro/snap/code/97
-# environment
-XDG_MENU_PREFIX = gnome-
-# environment
-CONDA_EXE = /home/jocastro/miniconda3/bin/conda
+CONDA_EXE = /home/karina/miniconda3/bin/conda
 # environment
 _CE_CONDA = 
-# environment
-GDMSESSION = ubuntu
- 
-# environment
-LC_IDENTIFICATION = es_CR.UTF-8
-# environment
-SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=141/1024=14%, Rehash=0, Collisions=14/166=8%
+# Load=76/1024=7%, Rehash=0, Collisions=2/101=2%
 
 # Pattern-specific Variable Values
 
@@ -304,9 +171,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66306, inode 26026208): 8 files, no impossibilities.
+# . (device 2, inode 135389463797831558): 6 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 6 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -356,12 +223,14 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 139 B / avg = 8 B
-# current buf: size = 8162 B / used = 139 B / count = 16 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 14 / storage = 109 B / avg = 7 B
+# current buf: size = 8162 B / used = 109 B / count = 14 / avg = 7 B
 
-# strcache performance: lookups = 18 / hit rate = 11%
+# strcache performance: lookups = 16 / hit rate = 12%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=0/18=0%
-# Finished Make data base on Thu May 19 11:25:28 2022
+# Load=14/8192=0%, Rehash=0, Collisions=0/16=0%
+# Finished Make data base on Sat May 28 16:19:13 2022
 
  
+make: *** No rule to make target 'all'.  Stop.
+

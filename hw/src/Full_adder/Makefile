@@ -1,6 +1,6 @@
 #Tarea 2: Karina MArtínez Guerrero
-module = AproximateORAdder/LSB_Four_AproximateORAdder
-submodules = FullAdder.v RippleCarryAdder.v 
+module = AproximateAdder/LSB_Two_AproximateRCAdder
+submodules = FullAdder.v AproximateAdder/AproximateAdder.v
   
 
 sim: clean

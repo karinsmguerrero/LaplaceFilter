@@ -26,7 +26,7 @@ module RippleCarryAdder_tb();
 				a = i;
 				b = j;
 				#10
-				$fwrite(file,"%d\n",{cout,s});
+				$fwrite(file,"%b\n",{cout,s});
 			end
 		end
 		
