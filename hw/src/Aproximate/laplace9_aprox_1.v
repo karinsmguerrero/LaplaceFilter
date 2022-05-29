@@ -1,4 +1,4 @@
-module laplace9_exact (
+module laplace9_aprox_1 (
 	input [7:0] b,
 	input [7:0] d,
 	input [7:0] e,
@@ -11,11 +11,11 @@ module laplace9_exact (
 	wire [9:0] sum;
 
 	// b + d -> 9 b
-    RippleCarryAdder rc1 (b, d, 1'b0, res1, cout1);
+    LSB_One_AproximateRCAdder rc1 (b, d, 1'b0, res1, cout1);
 	// f + h -> 9 b
-    RippleCarryAdder rc2 (f, h, 1'b0, res2, cout2);
+    LSB_One_AproximateRCAdder rc2 (f, h, 1'b0, res2, cout2);
 	//(b + d) + (f + h) -> 9 b
-    RippleCarryAdder rc3 (res1, res2, 1'b0, res3, cout3);
+    LSB_One_AproximateRCAdder rc3 (res1, res2, 1'b0, res3, cout3);
 	FullAdder fa1 (cout1, cout2, cout3, cout, cout4);
 	//(b + d + f + h) -> 10 b
     assign sum = {cout4, cout, res3};

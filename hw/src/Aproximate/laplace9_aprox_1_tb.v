@@ -1,6 +1,6 @@
 `timescale 1ns / 10ps
 
-module laplace9_exact_tb();
+module laplace9_aprox_1_tb();
 
 parameter ROWS = 510;
 parameter COLS = 510;
@@ -18,13 +18,13 @@ parameter COLS = 510;
 	
 	reg [7:0] img [0:262143];
 
-	laplace9_exact DUT (.b(b), .d(d), .e(e), .f(f), .h(h), .s(s));
+	laplace9_aprox_1 DUT (.b(b), .d(d), .e(e), .f(f), .h(h), .s(s));
 
 	initial begin
 		$display("--- Beginning simulation ---");
 		
 		$readmemb("../../sw/image.txt", img);
-		file = $fopen("imageFiltered.txt","w");
+		file = $fopen("imageFiltered_aprox_1.txt","w");
 
 		for(row = 0; row < ROWS; row = row + 1) begin
 			for (col = 0; col < COLS; col = col + 1) begin
