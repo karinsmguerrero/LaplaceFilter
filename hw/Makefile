@@ -1,5 +1,5 @@
-module = Aproximate/laplace9_aprox_5
-submodules = Full_adder/src/FullAdder.v Full_adder/src/AproximateAdder/LSB_Four_AproximateRCAdder.v  Full_adder/src/AproximateAdder/AproximateAdder.v
+module = Exact/laplace9_exact
+submodules = Full_adder/src/AproximateORAdder/LSB_Three_AproximateORAdder.v Full_adder/src/FullAdder.v Full_adder/src/RippleCarryAdder.v  Full_adder/src/AproximateAdder/AproximateAdder.v
 
 sim: clean
 	# Agregan el nombre del resto de archivos del proyecto, incluyendo el testbench del diseño
